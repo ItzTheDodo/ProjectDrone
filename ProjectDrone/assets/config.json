@@ -1,5 +1,5 @@
 {
-  "flight-plan-folder": "C:\\Users\\Turne\\OneDrive\\Documents\\Python\\ProjectDrone\\assets",
+  "flight-plan-folder": "cwd",
   "Version": "1.0.0",
 
   "fplan-height": "150",
@@ -11,7 +11,7 @@
       "Battery": "2700",
       "avg-speed": "15",
       "avg-flight-time": "20",
-      "image": "C:\\Users\\Turne\\OneDrive\\Documents\\Python\\ProjectDrone\\assets\\img_items\\bebop_drone.gif"
+      "image": "assets\\img_items\\bebop_drone.gif"
     }, "Mavic Mini": {
       "Battery": "2400",
       "avg-speed": "10",
@@ -24,7 +24,7 @@
       "Battery": "2700",
       "avg-speed": "20",
       "avg-flight-time": "40",
-      "image": "C:\\Users\\Turne\\OneDrive\\Documents\\Python\\ProjectDrone\\assets\\img_items\\disco_drone.gif"
+      "image": "assets\\img_items\\disco_drone.gif"
     }
   }
 }
