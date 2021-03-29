@@ -1,0 +1,30 @@
+{
+  "flight-plan-folder": "C:\\Users\\Turne\\OneDrive\\Documents\\Python\\ProjectDrone\\assets",
+  "Version": "1.0.0",
+
+  "fplan-height": "150",
+  "fplan-vs": "3",
+  "fplan-rotational-speed-dps": "10",
+
+  "Drone-Configurations": {
+    "Parrot Bebop": {
+      "Battery": "2700",
+      "avg-speed": "15",
+      "avg-flight-time": "20",
+      "image": "C:\\Users\\Turne\\OneDrive\\Documents\\Python\\ProjectDrone\\assets\\img_items\\bebop_drone.gif"
+    }, "Mavic Mini": {
+      "Battery": "2400",
+      "avg-speed": "10",
+      "avg-flight-time": "30"
+    }, "Mavic Pro": {
+      "Battery": "3830",
+      "avg-speed": "16",
+      "avg-flight-time": "23"
+    }, "Parrot Disco": {
+      "Battery": "2700",
+      "avg-speed": "20",
+      "avg-flight-time": "40",
+      "image": "C:\\Users\\Turne\\OneDrive\\Documents\\Python\\ProjectDrone\\assets\\img_items\\disco_drone.gif"
+    }
+  }
+}
