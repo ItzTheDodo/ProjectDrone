@@ -694,8 +694,8 @@ class Client:
                 pix_center = self.WIDTH / 2, (self.HEIGHT - 60) / 2
                 start_point = pix_center + (start_dist_from_map_origin / mtop)
                 dist_travelled_pix = dist_travelled_m / mtop
-                dyax = dist_travelled_pix * math.sin(self.bearing)
-                dxax = dist_travelled_pix * math.cos(self.bearing)
+                dyax = 90 - dist_travelled_pix * math.sin(self.bearing)
+                dxax = 90 - dist_travelled_pix * math.cos(self.bearing)
                 self.cv.delete("drone_rep")
                 self.cv.create_image(dxax + start_point, dyax + start_point, image=self.drone_imgs["blank_dr_rep.gif"], anchor="nw", tag="drone_rep")
                 last_pass = loc
